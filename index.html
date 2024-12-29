@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery Website</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- Boxicon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Swiper Js -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <!--  Navigation Bar Section starts -->
+
+    <header class="header">
+      <section class="flex">
+      <a href="#" class="logo">
+        <img src="./image/1000044711-removebg (1).jpeg" alt="" />
+      </a>
+
+      
+
+      <div class="navbar">
+        
+        <a href="#home" class="nav-links">Home</a>
+        <a href="#about" class="nav-links">About</a>
+        <a href="#menu" class="nav-links">Menu</a>
+        <a href="#gallary" class="nav-links">Gallary</a>
+        <a href="#order" class="nav-links">Order</a>
+        <a href="#contact" class="nav-links">Contact</a>
+      </div>
+
+      <div class="header-icon">
+        <img src="./image/search_icon.png" alt="" />
+
+        <div class="cart-icons">
+          <img src="./image/basket_icon.png" alt="" />
+          <span>4</span>
+        </div>
+      </div>
+
+      <button>Sign In</button>
+      <a href="#" class="nav-toggle hover-link">
+        <i class="fa-solid fa-bars"></i>
+      </a>
+    </section>
+    </header>
+    <!--  Navigation Bar Section ends  -->
+
+    <!-- Home Section start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="home-text-content">
+          <h1>Order your Favourite <span> <br>Meal </span></h1>
+          <p>
+            Welcome to YumRush! Discover delicious meals delivered to your
+            doorstep with ease. Browse diverse dishes, customize your order, and
+            track it in real-time. Satisfy your cravings with meals crafted by
+            top chefs and local favorites!
+          </p>
+
+          <button class="order-button">
+            <div>Order Now</div>
+            <i class="bx bx-right-arrow-alt"></i>
+          </button>
+        </div>
+        <div class="home-img">
+          <img src="./image/main_img.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Home Section Ends -->
+
+    <!-- About Section Starts -->
+
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="about-img">
+          <img src="./image/Food-Plate.png" alt="" />
+        </div>
+        <div class="about-text">
+          <div class="heading">
+            <h1><span>About</span> Us</h1>
+            <p></p>
+          </div>
+
+          <h2>Why do you Choose Us?</h2>
+          <p>
+            At YumRush, we’re committed to making every meal extraordinary with
+            a variety of dishes, fresh ingredients, and a user-friendly platform
+            for easy ordering. Enjoy fast delivery and customer-centered service
+            that ensures a seamless, satisfying dining experience every time.
+          </p>
+
+          <button class="order-button">
+            <div>Read more</div>
+            <i class="bx bx-right-arrow-alt"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- About Section Ends -->
+
+    <section class="menu" id="menu">
+      <div class="heading-text">
+        <div class="heading">
+          <h1><span>Explore Our</span> Menu</h1>
+          <p></p>
+        </div>
+        <p>
+            Explore Our Menu and discover a variety of mouthwatering dishes, from appetizers to desserts
+          <br />
+          Each crafted with fresh ingredients and authentic flavors to satisfy every craving.
+        </p>
+      </div>
+
+      <div class="menu-content">
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/buger.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Chocolate buger</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            A sweet delight with chocolate buns, rich ganache, hazelnut spread,
+            whipped cream, and caramel drizzle.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹299</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/sushi-rolls-FI.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Sushi</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Sushi is a traditional Japanese dish featuring vinegared rice, fresh
+            seafood, and vegetables, offering balanced flavors and elegance.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹799</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/Greek-Feta-Salad-square.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Greek Salad</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Greek Salad, or Horiatiki, is a refreshing Mediterranean dish with fresh vegetables, feta cheese, and olives, offering tangy flavors.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹599</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/butter-chicken.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Butter Chicken</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Butter Chicken, or Murgh Makhani, is a creamy North Indian dish with tender chicken in a spiced tomato-butter gravy.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹550</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/Brownies.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Brownies</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Brownie is a rich, chocolatey dessert with a fudgy or cakey texture, often topped with nuts or drizzled with chocolate.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹399</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/food_14.png" alt="" />
+          </div>
+          <h2 class="product-name">Cheese Sandwich</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            A crispy, golden bread filled with melted cheese, seasoned to
+            perfection, offering a warm and satisfying bite.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹249</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/waffle-sandwiches.jpeg" alt="" />
+          </div>
+          <h2 class="product-name">Waffle Sandwiches</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Waffle Sandwiches are crispy, golden waffles filled with sweet or savory ingredients, offering a delicious blend of textures and flavors. 
+          </p>
+          <div class="addToSection">
+            <span class="price">₹1099</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/food_6.png" alt="" />
+          </div>
+          <h2 class="product-name">Chicken roll</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Juicy, spiced chicken wrapped in a soft tortilla, paired with fresh
+            veggies and tangy sauces for a flavorful bite.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹180</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/1582355956_Rajmachawal.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Rajma Chawal</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Rajma Chawal is a classic North Indian dish featuring kidney beans cooked in a spiced gravy, served with steamed rice.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹210</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/prawns.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Prawns Fry</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Prawns Fry is a flavorful dish with prawns marinated in spices and fried until crispy, offering a savory, aromatic taste.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹810</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/Lobster.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Lobster Thermidor</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Lobster Thermidor is an elegant seafood dish featuring lobster meat mixed with a creamy, rich and cheese, then baked in the lobster shell. 
+          </p>
+          <div class="addToSection">
+            <span class="price">₹1110</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-box">
+          <div class="product-img">
+            <img src="./image/crabs.jpg" alt="" />
+          </div>
+          <h2 class="product-name">Steamed Crabs</h2>
+          <img src="./image/rating_starts.png" alt="" />
+          <p class="product-description">
+            Steamed Crabs are fresh crabs seasoned with spices, then gently steamed to preserve their natural sweetness and tenderness.
+          </p>
+          <div class="addToSection">
+            <span class="price">₹890</span>
+
+            <div class="cart-icon">
+              <a href="#"><i class="bx bx-cart"></i></a>
+              <div class="popup">
+                <p>Add To Cart</p>
+                <i class="bx bx-heart"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-next">
+        <button>1</button>
+        <button>2</button>
+        <p>Next...</p>
+        <button><i class="bx bx-right-arrow-alt"></i></button>
+      </div>
+    </section>
+
+    <section class="gallary" id="gallary">
+      <div class="heading-text">
+        <div class="heading">
+          <h1><span> Our</span> Gallary</h1>
+          <p></p>
+        </div>
+        <p>
+            Our Gallery showcases vibrant images of our delicious dishes, behind-the-scenes kitchen moments, happy customers and
+          <br />
+          Artistic food presentations, giving you a glimpse of the passion and quality behind every meal.
+        </p>
+      </div>
+
+      <div class="gallary-content">
+        <div class="gallary-box">
+          <img src="./image/plating-food-1.webp" class="gallary-img" alt="" />
+          <div class="gallary-overlay">
+             <h3>YumRush.</h3>
+
+            <p>
+                Food plating is the art of arranging and presenting dishes beautifully, enhancing visual appeal and creating a memorable dining experience.
+            </p>
+
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="gallary-box">
+          <img src="./image/gallary_1.jpg" class="gallary-img" alt="" />
+          <div class="gallary-overlay">
+            <h3>YumRush.</h3>
+
+            <p>
+                Food hygiene ensures food is prepared, stored, and handled safely, preventing contamination and ensuring freshness for a healthy dining experience.
+            </p>
+
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="gallary-box">
+          <img src="./image/Hot_dog.jpg" class="gallary-img" alt="" />
+          <div class="gallary-overlay">
+            <h3>YumRush.</h3>
+
+            <p>
+                Food quality refers to the freshness, taste, and safety of ingredients, ensuring every dish meets high standards for customer satisfaction.
+            </p>
+
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="gallary-box">
+          <img src="./image/gallary_6.jpg" class="gallary-img" alt="" />
+          <div class="gallary-overlay">
+            <h3>YumRush.</h3>
+
+            <p>
+                Our chefs are skilled culinary experts passionate about crafting delicious, high-quality dishes with precision, creativity, and fresh ingredients.
+            </p>
+
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="gallary-box">
+          <img src="./image/gallary_5.jpg" class="gallary-img" alt="" />
+          <div class="gallary-overlay">
+            <h3>YumRush.</h3>
+
+            <p>
+                Balanced spices enhance flavors without overpowering the dish, creating a perfect harmony of taste, aroma, and authenticity in every bite.
+            </p>
+
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="gallary-box">
+          <img src="./image/food-plating-2.avif" class="gallary-img" alt="" />
+          <div class="gallary-overlay">
+            <h3>YumRush.</h3>
+
+            <p>
+                Seasonal produce ensures fresh, nutrient-rich ingredients, delivering vibrant flavors and optimal quality while supporting sustainability and local farming practices. 
+            </p>
+
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="menu-next">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <p>Next...</p>
+        <button><i class="bx bx-right-arrow-alt"></i></button>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="heading-text">
+        <div class="heading">
+          <h1><span> Order</span> Now</h1>
+          <p></p>
+        </div>
+        <p>
+            Order Now and enjoy delicious, freshly prepared meals delivered straight to your doorstep with just a few clicks
+          <br />
+            And enjoy your favorites Meal.
+        </p>
+      </div>
+
+      <div class="order-section">
+        <div class="order-img">
+          <img src="./image/order_image.png" alt="" />
+        </div>
+        <div class="order-text">
+          <h2>Get Favourite dish at door <span>step</span></h2>
+          <p>
+            Get your meal at your doorstep with quick, fresh, and hassle-free delivery.
+          </p>
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Full Name" />
+              <input type="text" placeholder="Email" />
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Address" />
+              <input type="text" placeholder="Location" />
+            </div>
+            <textarea
+              name=""
+              placeholder="Describe Your Location in brief explanation"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <button>SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="testimonial">
+      <div class="heading-text">
+        <div class="heading">
+          <h1><span> Customer</span> Testimonial</h1>
+          <p></p>
+        </div>
+        <p>
+            Customer Testimonials highlight real experiences, showcasing satisfaction with our delicious food, prompt delivery and exceptional service, ensuring trust and quality.
+          <br />
+          Exceptional service, ensuring trust and quality.
+        </p>
+      </div>
+
+      <div class="slider-container swiper">
+        <div class="slider-wrapper">
+          <div class="slider-list swiper-wrapper">
+            <div class="slider-card swiper-slide">
+              <img src="./image/review_1.png" alt="" />
+              <h2>Lisa Smith</h2>
+              <p>
+                "I had an amazing experience with this food delivery service. The food was delivered on time, and it was still hot and fresh. The flavors were spot on, and the portion sizes were generous. I especially loved the butter chicken! I’ll definitely be ordering again and recommending it to my friends."
+              </p>
+              <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="slider-card swiper-slide">
+              <img src="./image/MEN1.jpg" alt="" />
+              <h2>Phillip Simon</h2>
+              <p>
+                "The food quality is top-notch, and the delivery service is always prompt. I’ve tried several dishes, and they never disappoint. The pasta Alfredo was creamy and rich, and the grilled chicken salad was fresh and healthy. It’s great to know that I can count on them for a satisfying meal every time!"
+              </p>
+              <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="slider-card swiper-slide">
+              <img src="./image/review_3.png" alt="" />
+              <h2>Sarah Lopez</h2>
+              <p>
+                "I’ve been ordering from here for a while now, and every meal has been exceptional. The vegetable biryani was fragrant and flavorful, and the garlic naan was perfectly soft. I love how consistently good the food is and how fast it gets to my door. I’m always excited to try something new!"
+              </p>
+              <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="slider-card swiper-slide">
+              <img src="./image/men2.webp" alt="" />
+              <h2>Carlos Wilson</h2>
+              <p>
+                "This is my go-to food delivery service! The sushi rolls were fresh and delicious, and the dim sum was perfectly steamed. The best part is the packaging, which keeps everything neat and intact. I appreciate their attention to detail and how they always deliver a high-quality meal. Definitely worth it!"
+              </p>
+              <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="slider-card swiper-slide">
+              <img src="./image/testimonial1.jpg" alt="" />
+              <h2>Dustin Taylor</h2>
+              <p>
+                "I’m really impressed with the food and service! The grilled prawns were perfectly cooked, and the mango lassi was the perfect refreshing drink to go with the meal. I love the wide range of options available, from comfort food to more adventurous choices. Delivery was quick, and the food arrived in perfect condition."
+              </p>
+              <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+
+            <div class="slider-card swiper-slide">
+              <img src="./image/men3.webp" alt="" />
+              <h2>Ella Perez</h2>
+              <p>
+                "I’ve tried many food delivery services, but this one stands out. The lobster thermidor was indulgent and cooked to perfection. I also had the Greek salad, which was fresh and full of flavor. The delivery was quick, and everything was neatly packed. I’ll definitely be ordering again and recommending it to others!"
+              </p>
+              <div class="social-media">
+                <a href="#"><i class="bx bxl-facebook"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="heading-text">
+        <div class="heading">
+          <h1><span> Contact</span> Us</h1>
+          <p></p>
+        </div>
+        <p>
+            Contact Us for inquiries, feedback, or support. Our team is ready to assist you with any questions.
+        </p>
+      </div>
+
+      <div class="contact-section">
+        <div class="contact-img">
+          <img src="./image/contact_img.png" alt="" />
+        </div>
+
+        <div class="contact-text">
+          <b><span>Our</span> Kitchen</b>
+          <p><i class="bx bx-map"></i> Janakpuri East, New Delhi.</p>
+          <p>
+            <i class="bx bx-phone"></i> Tell : +91 12987657543 <br />
+            <br />
+            <i class="bx bx-envelope"></i> Email: yumrush@gmail.com
+          </p>
+
+          <div class="social-media">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-input">
+        <h2>Send Us <span>Email</span> to be one of our best Customer</h2>
+        <div>
+          <input type="text" placeholder="Enter Email" />
+          <button>Submit</button>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <div class="footer-left">
+          <div>
+             <h2>YumRush.</h2>
+          </div>
+
+          <p>
+            Thank you for choosing our food delivery service! We’re dedicated to providing you with fresh, delicious meals, fast delivery, and excellent customer service. Stay connected with us for updates, offers, and more. Feel free to contact us for any inquiries or feedback. Enjoy your meal, and we look forward to serving you again!
+          </p>
+
+          <div class="social-media">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-center">
+          <h2>CONTENT</h2>
+
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#gallary">Gallary</a>
+          <a href="#order">Order</a>
+        </div>
+
+        <div class="footer-right">
+          <h2>GET IN TOUCH</h2>
+          <p><i class="bx bx-map"></i> Janakpuri East, New Delhi.</p>
+          <p>
+            <i class="bx bx-phone"></i> Tell : +91 12987657543 <br />
+            <br />
+            <i class="bx bx-envelope"></i> Email: yumrush@gmail.com
+          </p>
+        </div>
+      </div>
+      <hr />
+
+      <p class="copyright">
+        Copyright &copy; By Mr. Aniket | All Rights Reserved
+      </p>
+    </footer>
+
+    <!-- Swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Scroll Relveal -->
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- Main javascript link  -->
+    <script src="./main.js"></script>
+  </body>
+</html>
